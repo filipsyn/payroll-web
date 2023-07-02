@@ -1,44 +1,14 @@
-# default
+# Payroll
 
-## Project setup
+Webapp which runs numbers regarding your wage for you and gives you quick overview.
 
-```
-# yarn
-yarn
+## Run your own instance
 
-# npm
+```shell
 npm install
-
-# pnpm
-pnpm install
+npm run
 ```
 
-### Compiles and hot-reloads for development
+## Technologies used
 
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+- Vue.js 3 w/ Typescript

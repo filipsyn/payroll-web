@@ -33,8 +33,10 @@ const items: Array<NavigationDrawerItem> = [
   <v-app-bar
     color="teal-darken-2"
   >
-    <v-app-bar-nav-icon @click.stop="state.isDrawerPresented = !state.isDrawerPresented">
-    </v-app-bar-nav-icon>
+    <v-app-bar-nav-icon
+      color="white"
+      @click.stop="state.isDrawerPresented = !state.isDrawerPresented"
+    />
 
     <v-app-bar-title>
       Payroll

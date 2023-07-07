@@ -33,20 +33,19 @@ const items: Array<NavigationDrawerItem> = [
   <v-app-bar
     color="teal-darken-2"
   >
-    <v-app-bar-nav-icon
-      color="white"
-      @click.stop="state.isDrawerPresented = !state.isDrawerPresented"
-    />
-
     <v-app-bar-title>
       Payroll
     </v-app-bar-title>
   </v-app-bar>
 
   <v-navigation-drawer
-    v-model="state.isDrawerPresented"
+    color="teal-darken-1"
+    rail="true"
+    expand-on-hover
   >
-    <v-list>
+    <v-list
+      nav="true"
+    >
       <v-list-item
         v-for="item in items"
         :to="{name: item.destination}"
@@ -57,9 +56,7 @@ const items: Array<NavigationDrawerItem> = [
 
         {{ item.title }}
       </v-list-item>
-
     </v-list>
-
   </v-navigation-drawer>
 
 </template>

@@ -36,6 +36,13 @@ const items: Array<NavigationDrawerItem> = [
     <v-app-bar-title>
       Payroll
     </v-app-bar-title>
+
+    <template v-slot:append>
+      <v-btn
+        icon="mdi-cog"
+        color="white"
+      />
+    </template>
   </v-app-bar>
 
   <v-navigation-drawer
